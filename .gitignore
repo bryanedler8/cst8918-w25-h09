@@ -1,0 +1,26 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.plan
+*.tfvars
+*.tfvars.json
+
+# Kubernetes files
+kubeconfig
+*.kubeconfig
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
